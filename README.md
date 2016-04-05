@@ -32,7 +32,14 @@ insertion_sort(): 79.4754 seconds
 v1/v2 are the same.
 
 INFO.Size 1000000 :
+
 sort(): 0.279887 seconds
+
 v1/v2 are different.
+
 insertion_sort(): 9277.02 seconds
+
 v1/v2 are the same.
+
+我發現數據隨著資料越大 花的時間越多
+我想可能是因為Insertion Sort比較難以處理較大的資料
